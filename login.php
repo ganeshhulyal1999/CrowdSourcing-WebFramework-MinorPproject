@@ -23,13 +23,6 @@
 
 <body>
     <div class="login-dark"><br/>
-        <div class="container">
-         <div class="alert alert-warning" role="alert">
-         <?php if(isset($_SESSION["msg"])){?>
-         <strong>Warning!</strong> <?php echo $_SESSION["msg"];?>
-         <?php } ?>
-    </div>
-    </div>
         <h1 class="text-center text-white" style="margin: 0px;padding: 100px;">Login</h1>
         <form method="post" action="http://localhost/MinorProject/php/login.php">
             <h2 class="sr-only">Login Form</h2>

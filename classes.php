@@ -29,10 +29,9 @@
                     <div
                         class="collapse navbar-collapse" id="navcol-1">
                         <ul class="nav navbar-nav ml-auto">
-                            <li class="nav-item" role="presentation"><a class="nav-link active" href="#home" target="_top">Home </a></li>
-                            <li class="nav-item" role="presentation"><a class="nav-link active" href="#features">Make Contribution</a></li>
+                            <li class="nav-item" role="presentation"><a class="nav-link active" href="http://localhost/MinorProject/index.php" target="_top">Home </a></li>
+                            <li class="nav-item" role="presentation"><a class="nav-link active" href="http://localhost/MinorProject/upload.php">Make Contribution</a></li>
                             <li class="nav-item" role="presentation"><a class="nav-link active" href="#team">Available Classes</a></li>
-                            <li class="nav-item" role="presentation"><a class="nav-link active" href="#gallery">Account</a></li>
                             <li class="nav-item" role="presentation"></li>
                             <li class="nav-item" role="presentation"></li>
                             <li class="nav-item" role="presentation"></li>
@@ -42,7 +41,7 @@
         </nav>
         <div class="container hero">
             <?php
-                $dir = "C:/xampp/htdocs/MinorProject/uploaded/";
+                $dir = "C:/xampp/htdocs/MinorProject/admin/photos/";
 
                 // Open a directory, and read its contents
                 $i=1;

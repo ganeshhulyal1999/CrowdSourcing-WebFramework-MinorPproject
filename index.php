@@ -1,10 +1,3 @@
-<?php
-    session_start();
-    if(!isset($_SESSION["email"])){
-        $_SESSION["msg"]="You Need to Login First";
-        header("location: login.php");
-    }
-?>
 <!DOCTYPE html>
 <html>
 
@@ -33,10 +26,10 @@
                     <div
                         class="collapse navbar-collapse" id="navcol-1">
                         <ul class="nav navbar-nav ml-auto">
-                            <li class="nav-item" role="presentation"><a class="nav-link active" href="http://localhost/MinorProject/index.php" target="_top">Home </a></li>
-                            <li class="nav-item" role="presentation"><a class="nav-link active" href="http://localhost/MinorProject/upload.php">Make Contribution</a></li>
-                            <li class="nav-item" role="presentation"><a class="nav-link active" href="http://localhost/MinorProject/classes.php">Available Classes</a></li>
-                            <li class="nav-item" role="presentation"><a class="nav-link active" href="http://localhost/MinorProject/account.php">Account</a></li>
+                            <li class="nav-item" role="presentation"><a class="nav-link active" href="index.php" target="_top">Home </a></li>
+                            <li class="nav-item" role="presentation"><a class="nav-link active" href="upload.php">Make Contribution</a></li>
+                            <li class="nav-item" role="presentation"><a class="nav-link active" href="classes.php">Available Classes</a></li>
+                            <li class="nav-item" role="presentation"><a class="nav-link active" href="account.php">Account</a></li>
                             <li class="nav-item" role="presentation"></li>
                             <li class="nav-item" role="presentation"></li>
                             <li class="nav-item" role="presentation"></li>

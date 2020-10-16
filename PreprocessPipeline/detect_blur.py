@@ -35,7 +35,7 @@ for z in subfolders:
 		print(fm)
 		# if the focus measure is less than the supplied threshold,
 		# then the image should be considered "blurry"
-		if fm < 300:
+		if fm < 800:
 			text = "Blurry"
 			destination = "C:/xampp/htdocs/MinorProject/Trash/"
 			#shutil.move(imagePath,destination)

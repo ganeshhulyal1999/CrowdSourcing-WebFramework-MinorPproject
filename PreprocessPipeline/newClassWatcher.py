@@ -44,7 +44,7 @@ class Handler(FileSystemEventHandler):
         elif event.event_type == 'modified':
             # Taken any action here when a file is modified.
             print ("Received modified event - %s." % event.src_path)
-            os.system('cmd /k "python imageSimilarity.py && python detect_blur.py && conda activate tensorflow_env && python C:/xampp/htdocs/MinorProject/TrainingPipeline/Tensorflow-for-poets-in-windows/retrain.py --output_graph=C:/xampp/htdocs/MinorProject/NewModels/output_graph.pb  --output_labels=C:/xampp/htdocs/MinorProject/NewModels/output_labels.txt --image_dir=C:/xampp/htdocs/MinorProject/admin/photos/"') 
+            os.system('cmd /k "python imageSimilarity.py && python detect_blur.py && conda activate tensorflow_envn && python C:/xampp/htdocs/MinorProject/TrainingPipeline/Tensorflow-for-poets-in-windows/retrain.py --output_graph=C:/xampp/htdocs/MinorProject/NewModels/output_graph.pb  --output_labels=C:/xampp/htdocs/MinorProject/NewModels/output_labels.txt --image_dir=C:/xampp/htdocs/MinorProject/admin/photos/"') 
 
 if __name__ == '__main__':
     w = Watcher()
